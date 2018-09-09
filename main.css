@@ -1,0 +1,13 @@
+
+
+body {
+  background-color: aqua
+}
+
+h1 {text-align: center;}
+
+h2 {
+  text-underline-position: below;
+  text-shadow: light;
+  text-align: center;
+}
