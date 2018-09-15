@@ -1,13 +1,30 @@
 
 
+
+* {text-align: center;}   /* added so that no additional divs were needed to center all content on page */
+
 body {
   background-color: aqua
 }
 
-h1 {text-align: center;}
+h1 {text-align: center;}  /* no longer needed */
 
 h2 {
   text-underline-position: below;
   text-shadow: light;
-  text-align: center;
+  text-align: center;  /* no longer needed */
+}
+
+#el {                /* has to be an id not a class because of js */
+  padding: 1em;
+  display: inline-block;
+
+      /* this whole block is just to amuse me because I want it to 'spawn' or 'fade in' */
+
+  animation: fadein 4s;
+}
+
+@keyframes fadein {
+  from {opacity: 0;}
+  to   {opacity: 1;}
 }
