@@ -31,6 +31,10 @@ h3 {
   animation: fadein 4s;
 }
 
+.img {
+  max-width: 90%;
+}
+
 @keyframes fadein {
   from {opacity: 0;}
   to   {opacity: 1;}
