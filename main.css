@@ -15,9 +15,16 @@ h2 {
   text-align: center;  /* no longer needed */
 }
 
+h3 {
+  /*color: navy ;*/
+  text-decoration: green wavy underline;
+
+}
+
 #el {                /* has to be an id not a class because of js */
   padding: 1em;
   display: inline-block;
+  max-width: 90%;
 
       /* this whole block is just to amuse me because I want it to 'spawn' or 'fade in' */
 
